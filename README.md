@@ -10,6 +10,8 @@ Education is a cornerstone of empowerment; it gives people agency and enables th
 
 Based on a district-by-district analysis of the hundreds of potential predictors in the Education in India database (https://www.kaggle.com/rajanand/education-in-india), we identified sets of attributes that are most strongly associated with and predictive of overall literacy rates.
 
+The full project write-up and Appendix can be found above.
+
 ### Approach
 
 The original dataset had 625 observations and 819 variables, many of which were merely subcategories of overall district variables. We thus only considered the aggregate variables, such as total private schools rather than the number of private primary schools; we did this, in part, to ensure that the number of predictors would be substantially less than the number of observations. We settled on 25 variables, the complete list of which can be seen on page 1 of the Appendix above.
