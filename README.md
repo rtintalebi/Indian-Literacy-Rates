@@ -20,7 +20,7 @@ Ultimately, after performing EDA and structuring some messy data, we constructed
 
 We plotted histograms of each of the predictor variables at the district level and transformed them until they appeared normalize. A few are shown below:
 
-![Predictors-Histograms](Histograms.png)
+![Predictors-Histograms](Predictor-Histograms.png)
 
 In order to examine **multicollinearity**, we created a heat map of the correlation matrix of all our predictors:
 
@@ -70,7 +70,7 @@ It appears that Model 4 - a linear mixed effects model where a random intercept 
 
 Below are the effects of some of the predictors of our model:
 
-![India-Coefficients](md-images/India-Coefficients.png)
+![India-Coefficients](India-Coefficients.png)
 
 Model 4 focused on addressing the lack of independence in the data points in our previous models. Districts in the same state are dependent in that they are all affected by state government policies and state-specific cultural factors. Although Model 2 and Model 3 both control for state-level information by including the state code factor variable, 35 additional predictors are added as a result, causing the ratio of data points to predictors to decrease and thus potentially overfitting the data. Therefore, another way to address this violation of independence – a core assumption of multiple regression – is to build a mixed effects model, as we did in Model 4.
 
