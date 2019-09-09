@@ -4,7 +4,7 @@ Project Participants: Ramtin Talebi, Rajet Vatsa, Paul Stainier, Mirai Shah
 
 ### Introduction
 
-                  *“Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela*
+*“Education is the most powerful weapon which you can use to change the world.” - Nelson Mandela*
 
 Education is a cornerstone of empowerment; it gives people agency and enables those who are disenfranchised to break out of cycles of poverty and low expectations. Unfortunately, in many developing countries around the world, illiteracy remains a prevalent issue. For India in particular, approximately one in four people are considered illiterate. This project, part of a Kaggle competition and the final project for a course in linear models, used a mixed effects linear model to gain a better understanding on the status of education in India.
 
